@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: rgb(250, 172, 76);
-    color: rgb(49, 36, 7);
+    background-color: rgb(10, 3, 49);
+    color: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -14,7 +14,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 85px;
-    background-color: rgb(251, 170, 95);
+    background-color: rgb(31, 10, 122);
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(49, 36, 7);
+    color: whitesmoke;
 }
 
 nav ul li a:hover {
@@ -85,7 +85,7 @@ main hr {
 }
 
 .text-purple {
-    color: rgb(65, 44, 1);
+    color: blueviolet;
 }
 
 .text-gray #element {
@@ -135,14 +135,14 @@ main hr {
 .vertical-desc {
     position: relative;
     top: 86px;
-    color: rgb(37, 21, 1);
+    color: rgb(250, 246, 242);
     width: 160px;
     font-size: 20px;
 
 }
 
 footer {
-    background-color: rgb(251, 170, 95);
+    background-color: rgb(31, 10, 122);
 }
 
 .footer {
@@ -167,7 +167,7 @@ footer .footer-rights {
 
 .footer-second ul li a {
     text-decoration: none;
-    color: rgb(49, 36, 7);
+    color: white;
 }
 
 @media screen and (max-width: 1000px) {
