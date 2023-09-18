@@ -4,96 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anurag - Developer Portfolio</title>
+    <title>Anurag Verma - Developer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 110px;
-            background-color: rgb(2, 2, 12);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin-right: 20px;
-            margin-left: 25px;
-        }
-
-        .left {
-            font-size: 30px;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content:space-around    ;
-            margin: 50px 0;
-            
-        }
-
-        .firstSection > div {
-            width: 30%;
-        }
-
-        .leftSection {
-           
-            font-size: 3rem;
-        }
-
-        .rightSection img{
-          width: 120%;
-          
-        .purple{
-            background-color: rgb(130, 14, 238);
-        }
-        
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="left"> Anurag's Portfolio</div>
+            <div class="left">Anurag's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Educaional Qualification</a></li>
+                    <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
     <main>
         <section class="firstSection">
-            <div class="leftSection">Hi, My name is <span class="purple"> Anurag</span>
-                
-                <div>and I am a Web Developer</div>
+            <div class="leftSection">
+                <div>Hi, My name is <br><span class="text-purple">Anurag</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://github.com/anuragverma108"><button class="btn">Visit GitHub</button></a>
+                    <button class="btn">Download Resume</button>
+                </div>
             </div>
             <div class="rightSection">
-                <img src="1.png" alt="" >
+                <img src="dev.png" alt="Developer" width="75%">
             </div>
         </section>
-    </main>
+        <hr>
+        <section class="secondSection">
+            <h1>Work Experience</h1>
+            <br>
+            <br>
+            <div class="experience">
+                <h3>Member, GNX Netaji Subhash Engineering College</h3>
+                <p>Jul 2023 - Present · 3 months</p>
+                <p>Kolkata, West Bengal, India · On-site</p>
+            </div>
+            <br>
+            <div class="experience">
+                <h3>YouTube Content Creator at Anurag Bytes</h3>
+                <p>Feb 2023 - Present · 8 months</p>
+                <p>Kolkata, West Bengal, India · Remote</p>
+                <p>
+                    As a YouTube Content Creator at Anurag Bytes, I document and share my experiences through a
+                    delightful mix of daily vlogs, travel escapades, and glimpses into my everyday life. From
+                    discovering new places to engaging in insightful conversations, I strive to take you on a
+                    rollercoaster ride through my life.
+                </p>
+            </div>
+            <br>
+            <div class="experience">
+                <h3>Internshala Student Partner</h3>
+                <p>Dec 2022 - Mar 2023 · 4 months</p>
+                <p>Kolkata, West Bengal, India · Remote</p>
+                <p>
+                    As an ISP, I had the opportunity to be the face of Internshala on my campus and represent the company in front of students, professors, and other stakeholders. My role included the following responsibilities:
+                </p>
+                <ul>
+                    <li>Promoting Internshala's services and opportunities on my campus through various channels such as social media, email, posters, and events.</li>
+                    <li>Identifying potential student ambassadors and coordinating with them to increase brand awareness and engagement.</li>
+                    <li>Conducting workshops, webinars, and other events to educate students on topics such as career development, skill-building, and internships.</li>
+                    <li>Collaborating with the Internshala team to provide feedback on product improvements, marketing campaigns, and student engagement initiatives.</li>
+                    <li>Building and maintaining relationships with key stakeholders such as campus authorities, student organizations, and career centers.</li>
+                </ul>      
+            </div>
+</div>
+</section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>THANKS FOR VISITING</li>
+                <br><br>
+                <li><a href="\">CONTACT ME</a></li>
+        </div>
+        <div class="footer-rights">
+            xyzportfolio.com | ALL RIGHTS RESERVED
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Android Developer', 'Open Source Contributer'],
+        typeSpeed: 50,
+    });
+</script>
 </body>
 
 </html>
